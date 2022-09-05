@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cave Tour - Agência de Turismo.</title>
+    <link href="css/style2.css" rel="stylesheet">
+    <script src="js/js.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<header>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark  me-2">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">CAVE TOUR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="galeria.html">Galeria</a>
+                        <a class="nav-link" href="promocoes.html">Promoções</a>
+                        <a class="nav-link" href="destinos.html">Destinos</a>
+                        <a class="nav-link" href="contato.html">Contato</a>
+                        <div class="inputs">
+                          <label class="inputlabel">Login:</label>
+                          <input type="text" id="login" class="inputbox" name="login" placeholder="..@gmail.com">
+                          <label class="inputlabel">Senha:</label>
+                          <input type="password" id="password" class="inputbox" name="login" placeholder="*****">
+                          <button type="button" class="btn btn-dark">Entrar</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<body class="backg">
+    <div class="container">
+        <h1 class="titulo2"> Destinos </h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4 gridcard">
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/img/Gruta-da-Pratinha.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gruta da Pratinha - Bahia</h5>                 
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn">VER MAIS</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/img/Gruta-Rei-do-Mato.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gruta Rei do Mato - Minas Gerais</h5>
+                
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn">VER MAIS</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/img/Poço-Encantado.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Poço Encantado- Bahia</h5>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn">VER MAIS</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4 gridcard">
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/img/Entrada-da-Gruta-Azul-em-Arraial-do-Cabo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gruta Azul - Rio de Janeiro</h5>
+                 
+                 
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn">VER MAIS</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/img/Gruta-de-São-Miguel.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gruta de São Miguel -<br> Mato Grosso do Sul</h5>
+                
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn">VER MAIS</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/img/Gruta-do-Maquiné.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gruta de Maquiné - Cordisburgo</h5>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn">VER MAIS</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          
+
+          <div class="formu">
+            <form action="https://formsubmit.co/jplnovaes18@gmail.com" method="POST">
+  
+              <div class="input-group-newsletter">
+                  <div class="col-md-12">
+                      <p class="text-white"><br><b>Cadastre-se para receber nossas promoções:</b></p><input
+                          class="form-control" id="email" type="email" size="40" name="email"
+                          placeholder="Digite seu endereço de email..." aria-label="Enter email address..."
+                          data-sb-validations="required,email" required />
+                      <div class="botao"><button class="btn" id="submitButton" type="submit">
+                              <h5 class="textbotao"><b>CADASTRAR</b></h5>
+                          </button></div>
+                      <input type="hidden" name="_captcha" value="false">
+                      <input type="hidden" name="_subject" value="Novo usuario cadastrado!">
+                      <input type="hidden" name="_next" value="https://wa.me/5581979132155">
+                  </div>
+              </div>
+          </div>
+      </div>
+      </form>
+      </div>
+          
+   <br>
+</body>
+</div>
+       <!-- Footer -->
+
+       <footer class=" footer prin">
+        <div class=" esp centra">      
+        <div class="footer-copyright text-center py-3 text-white">© 2022 Copyright:
+            <a href="/" class="text-white"> cavetour.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
